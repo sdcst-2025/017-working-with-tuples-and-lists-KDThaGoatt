@@ -23,3 +23,11 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+
+words = []
+
+for i in range(5):
+    x = str(input("Enter a word: "))
+    words.insert(i, x)
+    
+print(words)
